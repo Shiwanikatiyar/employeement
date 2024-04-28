@@ -1,0 +1,15 @@
+#container{
+    text-align: center;
+
+}
+
+#filter_container div{
+    display: inline-flex;
+    gap: 2px;
+    
+}
+
+select{
+    height: 20px;
+    margin-top: 15px;
+}

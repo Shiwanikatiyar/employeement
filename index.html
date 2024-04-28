@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Employee Management System</h1>
+        <div id="filter_container">
+
+            <!-- Filter by Department -->
+            <div>
+                <p>Filter by Department:</p>
+            <select>
+                <option >--Select Department--</option>
+                <option >hr</option>
+                <option >finance</option>
+                <option >marketing</option>
+                <option >engineering</option>
+                <option >operations</option>
+            </select>
+            </div>
+
+            <!-- Filter by Gender -->
+            <div>
+                <p>Filter by Gender:</p>
+                <select>
+                    <option>--Select gender--</option>
+                    <option>Female</option>                    
+                    <option>Male</option>
+                </select>
+            </div>
+
+            <!-- Sort by Salary -->
+            <div>
+                <p>Sort by Salary:</p>
+                <select>
+                    <option>--Select order--</option>
+                    <option>low to high (asc)</option>
+                    <option>high to low (desc)</option>
+                </select>
+            </div>
+
+        </div>
+
+        <table>
+            <thead>
+               <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+               </tr>
+               <tbody>
+               
+               </tbody>
+        </table>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
